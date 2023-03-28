@@ -1,0 +1,80 @@
+/*DOCUMENTO*/
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+font-family: sans-serif;
+background-color:#FAEBD7 ;
+}
+
+h1{
+margin: 0;
+padding: 0;
+border: 0;
+font-family: times new roman;
+background-color:#D9B1A3
+}
+h2{
+margin: 0;
+padding: 0;
+border: 10px;
+font-family: times new roman;
+background-color:#D9B1A3
+}
+
+header {
+	background-color: #8C5C4A;
+	height: 100px;
+	padding-top: 25px;
+	color: #0D0D0D;
+	text-align:center;
+}
+main{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	padding:20px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.box{ 
+	width: 250px;
+	height: 350px;
+	background-color: #8C5C4A;
+	border-radius: 10px;
+	padding:10px;
+	color:#402318;
+	text-align: center;
+	margin:10px;
+}
+ .box hover{
+	box-shadow:10px 10px 10px #a4a4a4;
+	background-color: black;
+}
+.box h2{margin:0 0 10px 0;
+	padding: 0;
+}
+.box figure {width: 250px;
+	height: 200px;
+	background-color: #n42;
+	margin: auto;
+	padding: 0; 
+}
+
+.box p{
+margin: 0;
+padding: 0;
+border: 0;
+font-family: times new roman;
+background-color:#D9B1A3
+}
+
+footer {
+	background-color: #D9B1A3;
+	height:70px;
+	padding-top:25px;
+	color: black;
+	text-align: center ;
+}
